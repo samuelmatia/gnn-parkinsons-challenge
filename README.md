@@ -95,6 +95,10 @@ cd ..
 
 ### 4. Run Baseline Model
 ```bash
+python encryption\encrypt_submission.py submissions\gcn_submission.csv (it will automatically save it in submissions\encrypted
+```
+### 5. Encrypt
+```bash
 cd starter_code
 python baseline.py
 ```
